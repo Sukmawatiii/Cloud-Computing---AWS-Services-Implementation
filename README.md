@@ -17,7 +17,7 @@ Contoh Track C memakai API Gateway + Lambda + DynamoDB. Di sandbox, API Gateway 
 
 ## Arsitektur
 
-![Arsitektur](docs/TrackC_2_architecture-diagram.png)
+![Arsitektur](docs/Architechture Diagram_545512.png)
 
 ## Pembagian service
 
@@ -58,7 +58,7 @@ Key objek: `loans/<loan_id>.json`. Isi: `loan_id` (UUID), `item_name`, `borrower
 └── requirements-dev.txt
 ``` 
 
-## Deployment (satu perintah)
+## Deployment 
 
 Sandbox dihapus di akhir setiap sesi, jadi seluruh infrastruktur dibuat lewat script supaya bisa dibangun ulang kapan saja.
 
