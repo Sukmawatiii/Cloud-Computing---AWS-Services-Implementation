@@ -39,17 +39,24 @@ Key objek: `loans/<loan_id>.json`. Isi: `loan_id` (UUID), `item_name`, `borrower
 ```
 .
 ├── lambda/
-│   ├── loan_store.py    # akses S3 (dipakai bersama)
-│   ├── viewer.py        # handler loan-viewer
-│   └── admin.py         # handler loan-admin
+│   ├── loan_store.py    
+│   ├── viewer.py        
+│   └── admin.py         
 ├── scripts/
-│   ├── deploy.py        # bangun semuanya (idempoten)
-│   ├── teardown.py      # hapus semuanya
-│   └── demo.py          # alur CRUD lengkap untuk video demo
+│   ├── deploy.py        
+│   ├── teardown.py     
+│   └── demo.py          
 ├── tests/test_lambdas.py
-├── docs/ (architecture-diagram.png, demo-script.md, test-requests.md)
+├── aws-evidence
+├── docs/ 
+│   ├── demo-script.md 
+│   ├── test-requests.md
+│   ├── TrackC_2_architecture-diagram.png
+│   └── TrackC_design-brief.pdf
+├── README.md
+├── .gitignore
 └── requirements-dev.txt
-```
+``` 
 
 ## Deployment (satu perintah)
 
