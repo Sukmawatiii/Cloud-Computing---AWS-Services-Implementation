@@ -17,7 +17,7 @@ Contoh Track C memakai API Gateway + Lambda + DynamoDB. Di sandbox, API Gateway 
 
 ## Arsitektur
 
-![Arsitektur](docs/Architechture Diagram_545512.png)
+![Arsitektur](docs/Architechture_Diagram_545512.png)
 
 ## Pembagian service
 
