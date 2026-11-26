@@ -38,6 +38,12 @@ Key objek: `loans/<loan_id>.json`. Isi: `loan_id` (UUID), `item_name`, `borrower
 
 ```
 .
+├── aws-evidence
+├── docs/                                
+│   ├── demo-script.md                   
+│   ├── test-requests.md                 
+│   ├── TrackC_2_architecture-diagram.png
+│   └── TrackC_design-brief.pdf          
 ├── lambda/
 │   ├── loan_store.py    
 │   ├── viewer.py        
@@ -47,14 +53,8 @@ Key objek: `loans/<loan_id>.json`. Isi: `loan_id` (UUID), `item_name`, `borrower
 │   ├── teardown.py     
 │   └── demo.py          
 ├── tests/test_lambdas.py
-├── aws-evidence
-├── docs/ 
-│   ├── demo-script.md 
-│   ├── test-requests.md
-│   ├── TrackC_2_architecture-diagram.png
-│   └── TrackC_design-brief.pdf
-├── README.md
 ├── .gitignore
+├── README.md
 └── requirements-dev.txt
 ``` 
 
